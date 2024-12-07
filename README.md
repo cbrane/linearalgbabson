@@ -5,71 +5,91 @@ This repository contains Python implementations of various Linear Algebra concep
 ## Topics Covered
 
 1. **Matrix Operations**
-   - Matrix multiplication
+   - Matrix multiplication and addition
    - Matrix inversion
    - Reduced Row Echelon Form (RREF)
-   - Matrix powers
-
-2. **Vector Spaces**
-   - Linear combinations
-   - Span of vectors
-   - Basis of vector spaces
-   - Linear independence
-   - Checking if a set of vectors forms a basis
-
-3. **Linear Transformations**
-   - Checking if a function is linear
-   - Representing vectors in different bases
-
-4. **Eigenvalues and Eigenvectors**
-   - Computation and interpretation
-
-5. **Applications**
-   - Traffic flow problems
-   - Basketball passing probabilities
-   - Airline route analysis
-   - NBA player statistics analysis
-
-6. **Numerical Methods**
-   - Least squares solutions
-   - Linear regression
+   - Matrix powers and determinants
+   - Change of basis matrices
    - Singular Value Decomposition (SVD)
 
-7. **Vector Operations**
-   - Vector norms and lengths
-   - Dot products
-   - Perpendicularity of vectors
+2. **Vector Spaces**
+   - Linear combinations and span
+   - Linear independence
+   - Basis and dimension
+   - Row space and column space
+   - Null space and rank
+   - Change of coordinates
 
-8. **Coordinate Systems**
-   - Transformations between different coordinate systems
+3. **Linear Transformations**
+   - One-to-one and onto mappings
+   - Matrix representations
+   - Kernel and range
+   - Eigenvalues and eigenvectors
+   - Diagonalization
+
+4. **Applications**
+   - Basketball passing probabilities using Markov chains
+   - Traffic flow analysis
+   - NBA player statistics (height vs rebounds regression)
+   - Bakery purchase pattern analysis
+   - Linear regression and least squares
+   - Image compression using SVD
+
+5. **Vector Operations**
+   - Vector norms and lengths
+   - Dot products and orthogonality
+   - Projections
+   - Cross products in R3
+   - Vector geometry and visualization
+
+6. **Complex Numbers and Dynamical Systems**
+   - Complex number operations
+   - The Mandelbrot set
+   - Iterative systems and convergence
+   - Linear recurrence relations
+
+7. **Linear Systems**
+   - Solving systems of linear equations
+   - Homogeneous and non-homogeneous systems
+   - Matrix factorizations
+   - LU decomposition
+   - QR factorization
 
 ## Key Implementations
 
-- Matrix power calculations for probability and path finding problems
-- Linear regression implementation using the least squares method
-- Functions to determine if a set of vectors forms a basis for a vector space
-- Analysis of linear transformations
-- Adjacency matrix representations for graph problems
-- Vector operations and comparisons
+- Matrix operations and transformations
+- Basis verification and change of basis computations
+- Linear regression using least squares method
+- Markov chain analysis for probability problems
+- SVD for data analysis and compression
+- Eigenvalue/eigenvector computations
+- Vector space analysis tools
 
 ## Libraries Used
 
 - NumPy: For efficient matrix and vector operations
-- SciPy: For advanced linear algebra functions
-- SymPy: For symbolic mathematics and algebraic computations
+- SciPy: For advanced linear algebra computations
+- Matplotlib: For data visualization
+- SymPy: For symbolic mathematics
+- Pandas: For data manipulation and analysis
 
 ## Example Problems
 
-1. Basketball passing probabilities using matrix powers
-2. Airline route analysis with adjacency matrices
-3. NBA player height vs. rebounds linear regression
-4. Checking if a given function is linear
-5. Vector comparisons and operations in 3D space
+1. Analyzing basketball passing patterns using transition matrices
+2. Finding bases for vector spaces
+3. Computing change of basis matrices
+4. Analyzing NBA player statistics using linear regression
+5. Investigating the Mandelbrot set
+6. Analyzing customer purchase patterns using SVD
+7. Traffic flow optimization using linear systems
 
 ## How to Use
 
 Each Jupyter notebook (`*.ipynb`) contains self-contained examples and problems. To run these notebooks:
 
-1. Ensure you have Python and Jupyter installed.
-2. Install required libraries: `pip install numpy scipy sympy`
-3. Open the notebooks in Jupyter and run the cells to see the calculations and results.
+1. Ensure you have Python and Jupyter installed
+2. Install required libraries: `pip install numpy scipy sympy matplotlib pandas`
+3. Clone the repository
+4. Open the notebooks in Jupyter and run the cells to see the calculations and results
+
+The notebooks are organized by topic and increase in complexity throughout the course. Each notebook includes detailed explanations, code implementations, and visualizations where appropriate.
